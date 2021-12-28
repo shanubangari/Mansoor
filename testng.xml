@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.AutomateTestScripts.DataProvider"/>
+      <class name="com.AutomateTestScripts.ActitimeWithDataProviderTest"/>
+      <class name="com.AutomateTestScripts.Class1Test"/>
+      <class name="com.AutomateTestScripts.MethodOverLoading"/>
+      <class name="com.AutomateTestScripts.IrctcTest"/>
+      <class name="com.AutomateTestScripts.FlipcartPrint1OutOf384Products"/>
+      <class name="com.AutomateTestScripts.EntityTest"/>
+      <class name="com.AutomateTestScripts.Class"/>
+      <class name="com.AutomateTestScripts.FrameHandleTest"/>
+      <class name="com.AutomateTestScripts.LoginActiTimeApplnWithMultipleDataTest"/>
+      <class name="com.AutomateTestScripts.InfraAutomateTest"/>
+      <class name="com.crm.Jiwaku_Project.testscripts.TC_46"/>
+      <class name="com.crm.Jiwaku_Project.testscripts.TC_01_CreateContatcWithOrgName"/>
+      <class name="com.crm.Jiwaku_Project.testscripts.TC_47CreateSalesOrderUnderMoreInformationUsingAddSalesOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
